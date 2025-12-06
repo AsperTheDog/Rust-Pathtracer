@@ -37,7 +37,7 @@ Resources:
 Not all pixels need the same number of samples. I track the running variance for each pixel and focus samples on the noisy ones. Once a pixel's error estimate drops below a threshold, it stops getting new samples. This can dramatically increase the speed of sampling in some cases like scenes where a lot of rays hit the sky directly.
 
 Resources:
-- [Adaptive Sampling and Reconstruction using Greedy Error Minimization](https://graphics.pixar.com/library/AdaptiveSampling/paper.pdf) — Rousselle et al.
+- [Adaptive Sampling and Reconstruction using Greedy Error Minimization](https://www.cs.umd.edu/~zwicker/publications/AdaptiveSamplingGreedyError-SIGA11.pdf) — Rousselle et al.
 - [A Hierarchical Automatic Stopping Condition for Monte Carlo Global Illumination](https://jo.dreggn.org/home/2009_stopping.pdf) — Dammertz et al.
 
 ### Environment Map Importance Sampling
